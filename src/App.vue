@@ -1,9 +1,9 @@
 <script>
-import RecipePage from "./components/recipe-page.vue";
+import RecipePage from "./components/Recipe-page.vue";
 export default {
   components: {
-    RecipePage,
-  },
+    RecipePage
+  }
 };
 </script>
 
@@ -11,4 +11,4 @@ export default {
   <RecipePage />
 </template>
 
-.
+

@@ -18,9 +18,9 @@
           <h2 class="heading-name">Preparation time</h2>
           <ul>
             <!-- unordered list -->
-            <li>Total: Approximately 10 minutes</li>
-            <li>Preparation: 5 minutes</li>
-            <li>Cooking: 5 minutes</li>
+            <li><p><span>Total:</span> Approximately 10 minutes</p></li>
+            <li><p><span>Preparation:</span> 5 minutes</p></li>
+            <li><p><span>Cooking:</span> 5 minutes</p></li>
           </ul>
         </div>
       </section>
@@ -28,12 +28,12 @@
         <h2>Ingredients</h2>
         <ul>
           <!-- unordered list -->
-          <li>2-3 large eggs</li>
-          <li>Salt, to taste</li>
-          <li>Pepper, to taste</li>
-          <li>1 tablespoon of butter or oil</li>
+          <li><p>2-3 large eggs</p></li>
+          <li><p>Salt, to taste</p></li>
+          <li><p>Pepper, to taste</p></li>
+          <li><p>1 tablespoon of butter or oil</p></li>
           <li>
-            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            <p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
           </li>
         </ul>
       </section>
@@ -44,31 +44,38 @@
         <ol>
           <!-- ordered list -->
           <li>
-            <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a
+            <p><span>Beat the eggs:</span> In a bowl, beat the eggs with a
             pinch of salt and pepper until they are well mixed. You can add a
             tablespoon of water or milk for a fluffier texture.
+          </p>
           </li>
           <li>
-            <b>Heat the pan:</b> Place a non-stick frying pan over medium heat
-            and add butter or oil.
+            <p><span>Heat the pan:</span> Place a non-stick frying pan over medium heat
+              and add butter or oil.
+            </p>
           </li>
           <li>
-            <b>Cook the omelette:</b> Once the butter is melted and bubbling,
+            <p><span>Cook the omelette:</span> Once the butter is melted and bubbling,
             pour in the eggs. Tilt the pan to ensure the eggs evenly coat the
             surface.
+          </p>
           </li>
           <li>
-            <b>Add fillings (optional):</b> When the eggs begin to set at the
+            <p><span>Add fillings (optional):</span> When the eggs begin to set at the
             edges but are still slightly runny in the middle, sprinkle your
             chosen fillings over one half of the omelette.
+          </p>
           </li>
           <li>
-            <b>Fold and serve:</b> As the omelette continues to cook, carefully
+           <p><span>Fold and serve:</span> As the omelette continues to cook, carefully
             lift one edge and fold it over the fillings. Let it cook for another
             minute, then slide it onto a plate.
+          </p>
           </li>
           <li>
-            <b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.
+            <p>
+              <span>Enjoy:</span> Serve hot, with additional salt and pepper if needed.
+            </p>
           </li>
         </ol>
       </section>
@@ -84,20 +91,20 @@
           </caption>
           <tbody>
             <tr>
-              <td>Calories</td>
-              <td>277kcal</td>
+              <td class="td-name">Calories</td>
+              <td class="td-grams">277kcal</td>
             </tr>
             <tr>
-              <td>Carbs</td>
-              <td>0g</td>
+              <td class="td-name">Carbs</td>
+              <td class="td-grams">0g</td>
             </tr>
             <tr>
-              <td>Protein</td>
-              <td>20g</td>
+              <td class="td-name">Protein</td>
+              <td class="td-grams">20g</td>
             </tr>
             <tr>
-              <td>Fat</td>
-              <td>22g</td>
+              <td class="td-name">Fat</td>
+              <td class="td-grams">22g</td>
             </tr>
           </tbody>
         </table>
@@ -114,7 +121,7 @@
               href="httuls://www.frontendmentor.io?ref=challenge"
               target="_blank"
               >Frontend Mentor</a
-            >. Coded by <a href="#">Cornelio Jr.</a>.
+            >. Coded by <a href="https://github.com/Cornelio-II/Recipe-page">Cornelio Jr</a>.
           </p>
         </div>
       </footer>
@@ -124,15 +131,35 @@
 .prep-time {
  background-color: var(--rose-50);
  padding: 1.2em 1.5em;
- margin: 1.5em auto;
+ margin: 1.5em;
  border-radius: 1.2rem;
+ font-weight: var(--Outfit-weight-semi-bold);
+ 
 }
 section .heading-name {
   color: var(--rose-800); 
   margin-top: 0.4rem;
+  font-family: var(--Outfit-font);
+  font-weight: var(--Young-Serif-weight);
+}
+.td-name{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2rem;
+  padding: 0.5em 0;
+ font-weight: var(--Outfit-weight-regular);
+}
+.td-grams {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  padding: 0.5em 0;
+  margin-top: -2.7rem;
+  color: var(--brown-800);
+  font-weight: var(--Outfit-weight-semi-bold);
 }
 .attribution {
-  font-size: 0.688rem;
+  font-size: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
   color: hsl(229, 8%, 60%);
 }
 
