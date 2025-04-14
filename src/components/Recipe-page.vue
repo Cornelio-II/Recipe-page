@@ -134,7 +134,6 @@
  margin: 1.5em;
  border-radius: 1.2rem;
  font-weight: var(--Outfit-weight-semi-bold);
- 
 }
 section .heading-name {
   color: var(--rose-800); 

@@ -1,5 +1,6 @@
 <script>
-import RecipePage from "./components/RecipePage.vue";
+import RecipePage from './components/Recipe-page.vue';
+
 export default {
   components: {
     RecipePage
