@@ -21,7 +21,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Project Setup](#project-setup)
     - [Compile and Hot-Reload for Development](#compile-and-hot-reload-for-development)
     - [Compile and Minify for Production](#compile-and-minify-for-production)
-    - [Lint with ESLint](#lint-with-eslint)
   - [Javascipt framework](#javascipt-framework-1)
     - [Vue.js + Vite](#vuejs--vite-1)
   - [Recommended IDE Setup](#recommended-ide-setup-1)
@@ -29,16 +28,17 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Project Setup](#project-setup-1)
     - [Compile and Hot-Reload for Development](#compile-and-hot-reload-for-development-1)
     - [Compile and Minify for Production](#compile-and-minify-for-production-1)
-    - [Lint with ESLint](#lint-with-eslint-1)
   - [Author](#author)
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
+Your challenge is to build out this recipe page and get it looking as close to the design as possible.
 
-- See hover and focus states for all interactive elements on the page
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
 ### Screenshot
 
@@ -47,7 +47,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Recipe-page](https://github.com/Cornelio-II/Recipe-page)
-- Live Site URL: [Recipe-page-live](https://Cornelio-II.github.io/social-links-profile/)
+- Live Site URL: [Recipe-page-live](https://cornelio-ii.github.io/recipe-page/)
 
 ## My process
 
@@ -72,7 +72,7 @@ I’d love to hear your thoughts and suggestions about this project! Whether it�
 
 Here’s how you can provide feedback:
 
-1. **Report an Issue**: If you encounter a bug or problem, please [open an issue](https://github.com/Timex30/social-links-profile/issues).
+1. **Report an Issue**: If you encounter a bug or problem, please [open an issue](https://github.com/Cornelio-II/recipe-page/issues).
 2. **Feature Requests**: Have an idea for improvement? Let us know by creating a feature request.
 3. **Email Us**: Prefer direct communication? Feel free to send your feedback to [https://bsky.app/profile/cornelio30.bsky.social](https://bsky.app/profile/cornelio30.bsky.social).
 
@@ -112,12 +112,6 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
-
 ## Javascipt framework
 
 ### Vue.js + Vite
@@ -148,13 +142,6 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
 
 ## Author
 - Frontend Mentor - [@Timex29](https://www.frontendmentor.io/profile/Timex29)

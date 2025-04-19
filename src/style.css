@@ -51,8 +51,8 @@ body{
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- 
 }
+
 img,
 video,
 iframe,
@@ -62,15 +62,17 @@ webp{
   aspect-ratio: 2/1;
   object-fit: cover;
   object-position: top center;
-}
-img {
-  width: 100%;
   height: auto;
   border-radius: 0.625rem;
   box-shadow: 0 0.125rem 0.5rem var(--stone-150);
   cursor: pointer;
 }
 
+img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 main {
   position: relative;
   display: flex;

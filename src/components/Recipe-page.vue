@@ -1,10 +1,11 @@
+
 <template>
   <main>
     <article>
       <header>
-        <img
-          src="/src/assets/images/image-omelette.jpeg"
-          alt="image-omelette.jpeg"
+        <img  
+        src="/src/assets/images/image-omelette.jpeg"
+        alt="image-omelette.jpeg" 
         />
         <h1>Simple Omelette Recipe</h1>
         <p>
