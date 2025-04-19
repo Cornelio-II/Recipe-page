@@ -142,6 +142,7 @@ npm run dev
 
 ```sh
 npm run build
+```
 
 ## Author
 - Frontend Mentor - [@Timex29](https://www.frontendmentor.io/profile/Timex29)
