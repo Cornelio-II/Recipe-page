@@ -20,29 +20,25 @@
   --Outfit-weight-semi-bold: 600;
   --Outfit-weight-bold: 700;
   
-  --body-font-size: clamp(1rem, 0.956rem + 0.1878vw, 1.125rem);
-  --h1-font-size: clamp(2rem, 6vw + 1rem, 2.25rem);
-  --h2-font-size: clamp(1.5rem, 4vw + 1rem, 1.75rem);
+  --body-font-size: clamp(1rem, 1.088rem + -0.3756vw, 0.75rem);
+  --h1-font-size: clamp(1.5rem, 2vw + 1rem, 1.85rem);
+  --h2-font-size: clamp(1rem, 2vw + 1rem, 1.75rem);
   
 }
 *, *::before, *::after {
   box-sizing: border-box;
-  
-}
-*{
   font-weight: normal;
-}
-html, 
-body{
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
+
 body{
   min-height: 100vh;
   line-height: 1.5;
   display: grid;
   place-items: center;
+  padding-block: 2rem;
   font-family: var(--Outfit-font);
   font-size: var(--body-font-size);
   background-color: var(--stone-100);
@@ -53,41 +49,38 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
-img,
+picuture, img,
 video,
 iframe,
 webp{
   max-inline-size: 100%;
   block-size: auto;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
   aspect-ratio: 2/1;
   object-fit: cover;
   object-position: top center;
   height: auto;
-  border-radius: 0.625rem;
   box-shadow: 0 0.125rem 0.5rem var(--stone-150);
   cursor: pointer;
 }
 
-img{
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
+
 main {
-  position: relative;
   display: flex;
   flex-direction: column;
   max-width: 42rem;
-  margin: 0.5rem ;
-  padding: 1.25rem;
   border-radius: 1.25rem;
   background-color: var(--white);
   box-shadow: 0 0.125rem 0.5rem var(--stone-150);
+  
 }
 
-h1 {
-  color: var(--stone-900);
 
+h1 {
+  margin:1rem 0;
+  color: var(--stone-900);
   text-align: center;
   font-family: var(--Young-Serif-font);
   font-weight: var(--Outfit-weight-bold);
@@ -107,8 +100,15 @@ table {
   margin-top: 1rem;
 }
 tr {
-  
-  border-bottom: 0.063rem solid var(--stone-150);
+  & + & {
+    border-block-start: 0.063rem solid var(--stone-150);
+  }
+  &:first-child {
+    padding-block-start: 0;
+  }
+  &:last-child {
+    padding-block-end: 0;
+  } 
 }
 hr {
   border: none;
@@ -122,7 +122,6 @@ hr {
 tbody {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
   padding: 0.5rem;
   background-color: var(--white);
   border-radius: 0.5rem;
@@ -142,6 +141,7 @@ ul, ol{
   margin: 0.5rem 0;
   color: var(--brown-800);
   font-weight: var(--Outfit-weight-bold);
+  
 }
 p{
   color: var(--stone-600);
